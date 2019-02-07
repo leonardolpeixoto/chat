@@ -1,0 +1,15 @@
+{
+  "name": "chat",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/bin/index.js",
+  "scripts": {
+    "start": "nodemon src/bin/index.js"
+  },
+  "author": "leonardo peixoto <leonardodelimapeixoto@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  }
+}
