@@ -1,0 +1,10 @@
+version: '3'
+services:
+  asterisk:
+    build: 
+      context: .
+      dockerfile: /docker/asterisk/Dockerfile
+    restart: unless-stopped
+    ports:
+      - "5060:5060"
+      - "5060:5060/udp"
